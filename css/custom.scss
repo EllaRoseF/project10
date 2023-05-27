@@ -1,0 +1,180 @@
+$primary: rgba(71, 118, 148, 1);
+@font-face {
+    font-family: 'Rekford-Book';
+    src: url(font/Rekord-Book.woff2);
+    font-family: 'apple';
+    src: url(/font/AppleGaramond-Bold.ttf);
+}
+body{
+    font-family: Rekford;
+}
+h1, h2, h3, h4 {
+    font-family: apple;
+}
+h2, .mhp{ 
+    display: inline-block;
+    background-color: rgba(235, 130, 207, 0.1);
+    padding: 5px;
+}
+caption {
+  caption-side: top;
+}
+.table-dark {
+  --bs-table-bg: rgba(142, 194, 226, 0.605);
+}
+.table-striped {
+    color: #15324a;
+}
+
+.text-white {
+  margin: auto;
+}
+h4 {
+  font-weight: lighter;
+}
+
+.videoWrapper {
+  border-bottom:  solid 3px #15324a;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+display: flex;
+z-index: -1;
+margin: 0 auto;
+padding: 0;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: center;
+justify-content: center;
+align-items: center;
+border-bottom: 5px solid #f097c9d2;;
+}
+video{
+  z-index: -1;
+}
+h1{
+  color: #fff;
+}
+
+img{
+  overflow: hidden;
+
+
+}
+footer {
+  text-align: center;
+}
+.bg-dark {
+  background-color: rgba(245, 191, 220, 0.581) !important;
+  box-shadow:  0 2px 2px 0px  #15324a;
+}
+.bi-star-fill{
+    color: #15324a;
+}
+.text-primary {
+  color: rgba(246, 187, 227, 0.821);
+}
+
+span {
+  position: relative;
+  display: block;
+}
+
+a:hover {
+  color: rgba(242, 150, 196, 0.833);
+  transition: linear 0.1s;
+  will-change: transform; 
+}
+.nav-link:hover {
+  color: #f097c9d2;
+  will-change: transform;
+}
+.btn{
+  font-family: Rekford;
+  z-index: 3;
+}
+.btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+  margin-top: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn-outline-primary:hover {
+  background-color: #f097c9d2;
+  border-color: #fff;
+  transition: 0.1s linear;
+  will-change: transform;
+
+}
+
+.btn-primary {
+padding: 0.77em;
+  background-color: #15324a;
+  border:  solid 1px #f097c9ae;
+
+}
+.btn-primary:hover {
+  background-color: hsla(329, 84%, 82%, 0.662);
+  transition: ease-in-out 0.1s;
+  will-change: transform;
+}
+a, .nav-link{
+    color: #fff;
+}
+th{
+    font-family: Rekford;
+    font-weight: normal;
+}
+.form-check-input:checked{
+    background-color: #2d6796;
+}
+
+.text-foot {
+    font-style: italic;
+color: #15324a;
+font-family: Rekford;
+font-weight: light;
+font-size: 100%;
+padding: 10px;
+
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+
+  gap: 50px 60px;
+  left: auto;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  color: #fff;
+
+
+}
+
+section#about {
+
+  padding-top: 36rem;
+  padding-bottom: 9rem;
+  z-index: -5;
+}
+section{
+  padding-top: 5em;
+  padding-bottom: 5em;  
+}
+
+.axolotl{
+  max-width: 300px;
+  opacity: 0.5;
+}
+
+.axolotl:hover{
+transition: 0.4s linear;
+opacity: 1;
+}
