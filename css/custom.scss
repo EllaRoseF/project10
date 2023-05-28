@@ -33,35 +33,30 @@ h4 {
   font-weight: lighter;
 }
 
-.videoWrapper {
-  border-bottom:  solid 3px #15324a;
-  width: 100%;
+.jumbotron-fluid {
+  background-repeat: no-repeat;
   height: 500px;
-  overflow: hidden;
-  position: absolute;
-display: flex;
-z-index: -1;
-margin: 0 auto;
-padding: 0;
-flex-wrap: wrap;
-flex-direction: row;
-align-content: center;
-justify-content: center;
-align-items: center;
-border-bottom: 5px solid #f097c9d2;;
 }
-video{
-  z-index: -1;
+
+.bg-cover {
+  background-size: cover !important;
+  border-bottom:  solid 5px #04080c;
 }
+.jumbotron-fluid figure img:hover{
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.jumbotron-fluid:hover img {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+} 
 h1{
   color: #fff;
 }
 
-img{
-  overflow: hidden;
 
-
-}
 footer {
   text-align: center;
 }
@@ -80,13 +75,7 @@ span {
   position: relative;
   display: block;
 }
-
-a:hover {
-  color: rgba(242, 150, 196, 0.833);
-  transition: linear 0.1s;
-  will-change: transform; 
-}
-.nav-link:hover {
+.nav-link, a:hover {
   color: #f097c9d2;
   will-change: transform;
 }
@@ -140,38 +129,17 @@ font-size: 100%;
 padding: 10px;
 
 }
-
-.overlay {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-self: center;
-
-  gap: 50px 60px;
-  left: auto;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  color: #fff;
-
-
-}
-
-section#about {
-
-  padding-top: 36rem;
-  padding-bottom: 9rem;
-  z-index: -5;
-}
 section{
-  padding-top: 5em;
-  padding-bottom: 5em;  
+  padding-top: 2em;
+  padding-bottom: 3em;  
 }
 
 .axolotl{
+  display: relative;
   max-width: 300px;
   opacity: 0.5;
+margin-left: 0;
+margin-right: 0;
 }
 
 .axolotl:hover{
